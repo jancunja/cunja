@@ -79,3 +79,14 @@ button:hover {
   margin: 0;
   line-height: 1.4;
 }
+
+.story-box {
+  border: 2px solid #4caf50;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  margin: 24px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
