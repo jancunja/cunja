@@ -20,7 +20,7 @@ p {
 /* Simple button style */
 button {
   background-color: #e5028e;
-  color: rgb(0, 229, 255);
+  color: rgb(10, 0, 155);
   border: none;
   padding: 10px 16px;
   border-radius: 6px;
@@ -29,5 +29,37 @@ button {
 
 /* Button hover effect */
 button:hover {
-  background-color: #40ff00;
+  background-color: #00d6de;
+}
+
+<!-- Container for items -->
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* space between items */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* space between image and button */
+}
+
+.item img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 16px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;  /* left / center / right */
+  align-items: center;      /* top / center / bottom */
+  height: 300px;
 }
