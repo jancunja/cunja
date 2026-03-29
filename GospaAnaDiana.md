@@ -1,0 +1,45 @@
+**Pestra življenja neznancev**
+
+Na nabito polnem avtobusu iz Ljubljane do Kopra sem prosil gospo, če me spusti na sedež poleg nje.
+Začela je umikati svojo prtljago, da bi se lahko usedel.
+"Vam jo pomagam spravit?" Stegnil sem roko proti njeni ogromni vreči in potem pomignil na polico nad njeno glavo.
+"Raje ne, ker so not borovnice in če se raztresejo, bo cel žur."
+Ko sem sedel ob oknu je vrečo stlačila med najine noge. "Sej sva v redu," je rekla. Potem je izvlekla svoj telefon in majhno lupo in si začela z nekom dopisovati, jaz pa sem kmalu za tem odprl svoj prenosnik in začel pisati. Večino poti sva bila zatopljena vsak v svoj ekran, tam nekje pri Kozini pa je odložila telefon in začela buljiti v moj prenosnik.
+"Kaj pa ti delaš?"
+"Emm, pišem neko zgodbo."
+"O, si pisatelj?"
+"Ne ne, ponavadi samo pišem a nič ne napišem."
+"Poznam to, jaz imam že deset knjig, ki imajo naslove, notri pa ni niti ene besede."
+Nasmehnil sem se in zaprl prenosnik.
+"Hana Diana."
+"Jan."
+"Jaz trgujem," je rekla in pomignila na telefon v roki. Takrat je ravno posvetil ekran in spet je vzela lupico, da bi preverila prejeto sporočilo. "Eno skupino imamo v kateri se pogovarjamo o trgovanju. Če te zanima, te lahko povabim not."
+"Hvala, ampak sem že tako dosti pred ekrani. Ne bi se mi dalo še s tem ukvarjat."
+Potem mi je razložila cel sistem trgovanja in mi zagotovila, da ne gre za prevaro, da je ona zaslužila že nekaj sto evrov, da gre za zaprto skupino v katero ne more kar tako vsak priti not in da mi lahko da njeno številko, če me bo kdaj prijelo, da bi se jim pridružil.
+"Sem vesel, da za vas deluje, ampak meni se res ne bi dalo ukvarjat s tem."
+"No sej to ti govorim samo zato ker si vprašal."
+Nikoli nisem vprašal.
+"Kaj pa kakšni tvoji prijatelji?"
+"Moji prijatelji že trgujejo s kriptovalutami in imajo že toliko denarja, da ga ne rabijo več."
+To je delovalo. Hana Diana je spet z lupo prebrala par sporočil, potem pa sva bila nekaj trenutkov tiho.
+"Hodim tudi v cerkev."
+"Lepo."
+"Ampak ne v kakšno dolgočasno cerkev. V naši cerkvi plešemo, pojemo, hodimo na morje skupaj."
+"Uau, imate pa kar pestro življenje."
+"Ja. Če te zanima, lahko prideš kdaj pogledat."
+"Sliši se super, ampak nimam časa, ker hodim v eno gledališko skupino, v kateri tudi delamo vse te stvari."
+"Aha. No lahko ti dam mojo številko, če se boš odločil pridet."
+"Ni treba, saj ste mi povedali kje je cerkev, tako da če me bo prijelo, pridem pogledat."
+"Te še ni poklical Sveti duh?"
+"Ne še."
+"Saj veš, Sveti duh te lahko nagovori na več načinov. Poglej, mene si srečal."
+"Ja, ampak prav Sveti duh osebno me še ni nagovoril."
+"Jan! Jan! Si slišal zdaj?"
+"Vas sem slišal, Svetega duha pa ne."
+Takrat smo bili že v Kopru in ljudje so zapuščali avtobus. Vstala je, vzela svoje borovnice in me vprašala kako grem domov.
+"Starši me pridejo iskat."
+"Kaj pa oni? Mogoče njih zanima trgovanje?"
+
+Ni ju zanimalo.
+Sem pa prej, ko sem stal pred hišo, pogledal v nebo in tam je bil On.
+Mogoče bi si le moral shranit njeno številko.
