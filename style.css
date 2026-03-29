@@ -66,20 +66,6 @@ button:hover {
   height: 300px;
 }
 
-/* Short story block for GospaAnaDiana.md */
-#short-story {
-  font-family: "Times New Roman", serif;
-  font-size: 12px;
-  color: #000;
-}
-
-#short-story pre {
-  white-space: pre-wrap;
-  text-indent: 20px;
-  margin: 0;
-  line-height: 1.4;
-}
-
 .story-box {
   border: 2px solid #4caf50;
   background-color: #fff;
@@ -89,4 +75,11 @@ button:hover {
   max-width: 800px;
   margin: 24px auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#short-story pre {
+  white-space: pre-wrap;
+  margin: 0;
+  line-height: 1.4;
+  padding-left: 20px;
 }
