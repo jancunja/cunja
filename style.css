@@ -32,7 +32,7 @@ button:hover {
   background-color: #00d6de;
 }
 
-<!-- Container for items -->
+/* Container for items */
 
 .container {
   display: flex;
@@ -49,12 +49,14 @@ button:hover {
 }
 
 .item img {
-  width: 300px;
+  width: 250px;
   border-radius: 10px;
 }
 
-button {
-  padding: 10px 16px;
+@media (max-width: 600px) {
+  .item img {
+    width: 60px;
+  }
 }
 
 .box {
