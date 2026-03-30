@@ -64,7 +64,32 @@
   loadMarkdown();
 </script>
 
+    <h1>Markdown-it Test</h1>
 
+<div id="story-box">Loading...</div>
+
+  <script>
+  async function loadMarkdown() {
+    const response = await fetch("./GospaHanaDiana copy.md");
+    let text = await response.text();
+
+    // Convert EVERY newline into a paragraph
+    const normalized = text.replace(/\r\n/g, "\n");
+    text = normalized.split("\n").map((line) => line).join("\n\n");
+    
+    const md = window.markdownit({
+      breaks: false
+    });
+
+    const html = md.render(text);
+
+    document.getElementById("story-box").innerHTML = html;
+  }
+
+  loadMarkdown();
+</script>
+
+  
   <div class="story-box" id="short-story">
     
     <pre>
