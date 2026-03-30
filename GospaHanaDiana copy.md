@@ -39,7 +39,7 @@ To je delovalo. Hana Diana je spet z lupo prebrala par sporočil, potem pa sva b
 Takrat smo bili že v Kopru in ljudje so zapuščali avtobus. Vstala je, vzela svoje borovnice in me vprašala kako grem domov.
 "Starši me pridejo iskat."
 "Kaj pa oni? Mogoče njih zanima trgovanje?"
-
+###
 Ni ju zanimalo.
 Sem pa prej, ko sem stal pred hišo, pogledal v nebo in tam je bil On.
 Mogoče bi si le moral shranit njeno številko.
