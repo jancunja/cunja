@@ -2,7 +2,6 @@
 <html lang="sl">  
 <!-- tu definiraš jezik strani, v tem primeru slovenščina (sl)
  -->
-// test komentarjev
 
 <head>
     <meta charset="UTF-8">
@@ -25,25 +24,32 @@
   <div class="container">
 
     <div class="item">
-    <img src="websiteQRcode.png">
-    <br>
-    <br>
-    <a href="https://cssgridgarden.com/">
-    <button>Play CSS Grid Garden!</button>
-    </a>
+    <img src="websiteQRcode.png" alt="QR Code">
+
+    <button onclick="window.location.href='https://cssgridgarden.com/'">
+      Play CSS Garden
+    </button>
   </div>
 
   <div class="item">
-    <a href="https://val202.rtvslo.si/podkast/zapisi-iz-mocvirja/182">
-    <button>Val202 iz močvirja</button>
-    </a>
+
+    <button onclick="window.location.href='https://validator.w3.org/'">
+      Validate HTML
+    </button>
+  </div>
+
+
+  <div class="item">
+    <button onclick="window.location.href='https://val202.rtvslo.si/podkast/zapisi-iz-mocvirja/182'">
+      Val202 iz močvirja
+    </button>
   </div>
 
 </div>
 
  <div class="video-box">
       <iframe
-        src="https://www.youtube.com/watch?v=mJgBOIoGihA"
+        src="https://www.youtube.com/embed/mJgBOIoGihA"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
