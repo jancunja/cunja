@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All the Beautiful Things</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: white;
+      color: black;
+      max-width: 760px;
+      margin: 50px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    p.intro {
+      margin-bottom: 30px;
+    }
+
+    ol {
+      padding-left: 28px;
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      min-width: 250px;
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+
+    button {
+      padding: 12px 18px;
+      font-size: 16px;
+      border: 1px solid black;
+      background: black;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: default;
+    }
+
+    .status {
+      margin-top: 12px;
+      min-height: 1.2em;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>All the Beautiful Things</h1>
+  <p class="intro">A list that anyone can continue.</p>
+
+  <ol id="beautifulList"></ol>
+
+  <div class="form-row">
+    <input
+      type="text"
+      id="thingInput"
+      placeholder="Write your own beautiful thing"
+      maxlength="120"
+    />
+    <button id="postButton">Post</button>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <script type="module">
+    import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+    const SUPABASE_URL = "https://lvftxjvjwwdpqxdnulhl.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_LhZNw51IroT_C30F1M5rzg_ON0T38IG";
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    const list = document.getElementById("beautifulList");
+    const input = document.getElementById("thingInput");
+    const button = document.getElementById("postButton");
+    const status = document.getElementById("status");
+
+    async function loadThings() {
+      status.textContent = "Loading...";
+
+      const { data, error } = await supabase
+        .from("beautiful_things")
+        .select("id, text")
+        .order("id", { ascending: true });
+
+      if (error) {
+        console.error(error);
+        status.textContent = "Could not load the list.";
+        return;
+      }
+
+      list.innerHTML = "";
+
+      data.forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = item.text;
+        list.appendChild(li);
+      });
+
+      status.textContent = "";
+    }
+
+    async function addThing() {
+      const text = input.value.trim();
+
+      if (!text) {
+        status.textContent = "Please write something first.";
+        return;
+      }
+
+      button.disabled = true;
+      status.textContent = "Posting...";
+
+      const { error } = await supabase
+        .from("beautiful_things")
+        .insert([{ text }]);
+
+      if (error) {
+        console.error(error);
+        status.textContent = "Could not post your text.";
+        button.disabled = false;
+        return;
+      }
+
+      input.value = "";
+      await loadThings();
+      button.disabled = false;
+      input.focus();
+    }
+
+    button.addEventListener("click", addThing);
+
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        addThing();
+      }
+    });
+
+    loadThings();
+  </script>
+</body>
+</html>
